@@ -15,10 +15,10 @@
           }
         }
       },
-      "InfluxDB.Client/4.11.0-dev.10059": {
+      "InfluxDB.Client/4.11.0": {
         "type": "package",
         "dependencies": {
-          "InfluxDB.Client.Core": "4.11.0-dev.10059",
+          "InfluxDB.Client.Core": "4.11.0",
           "JsonSubTypes": "2.0.1",
           "Microsoft.Extensions.ObjectPool": "7.0.2",
           "Microsoft.Net.Http.Headers": "2.2.8",
@@ -33,7 +33,7 @@
           "lib/netstandard2.1/InfluxDB.Client.dll": {}
         }
       },
-      "InfluxDB.Client.Core/4.11.0-dev.10059": {
+      "InfluxDB.Client.Core/4.11.0": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "30.0.1",
@@ -520,30 +520,30 @@
         "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
-    "InfluxDB.Client/4.11.0-dev.10059": {
-      "sha512": "NMnWcVD5xwWi0QFAOSDfG0SOU6RzaB8X43dj4OhWcNZ1k6g6mz5SRG2GLQ0S+UGtHbckOS9Wi4ssXvTBiR3Yew==",
+    "InfluxDB.Client/4.11.0": {
+      "sha512": "9La5vqpwbPlsdNeNyo90Im/d+OVOrqkjrv/1FY0Ow6NmZSFsFTN5wfQYNrPw5ZkIlYTT5fX4oX01zFChnSYxOw==",
       "type": "package",
-      "path": "influxdb.client/4.11.0-dev.10059",
+      "path": "influxdb.client/4.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "influxdata.jpg",
-        "influxdb.client.4.11.0-dev.10059.nupkg.sha512",
+        "influxdb.client.4.11.0.nupkg.sha512",
         "influxdb.client.nuspec",
         "lib/netstandard2.0/InfluxDB.Client.dll",
         "lib/netstandard2.1/InfluxDB.Client.dll"
       ]
     },
-    "InfluxDB.Client.Core/4.11.0-dev.10059": {
-      "sha512": "z8xmbXyygpxpolAf/7eTqIO2r9Bw3GBqNIrI0pOKRO7eYL69rxQZnyaSYnkNnfJhuZeZGw6iJoecRGDZ/4mUkA==",
+    "InfluxDB.Client.Core/4.11.0": {
+      "sha512": "LFQS6u8Lb9yf2IZ8fBd3K4m4r0OVYvTGItBce7cDctYXiNjMiWxR7onzRO75R9UfkndaOkyG/Wz7BeszhRlTkA==",
       "type": "package",
-      "path": "influxdb.client.core/4.11.0-dev.10059",
+      "path": "influxdb.client.core/4.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "influxdata.jpg",
-        "influxdb.client.core.4.11.0-dev.10059.nupkg.sha512",
+        "influxdb.client.core.4.11.0.nupkg.sha512",
         "influxdb.client.core.nuspec",
         "lib/netstandard2.0/InfluxDB.Client.Core.dll",
         "lib/netstandard2.1/InfluxDB.Client.Core.dll"
@@ -1186,7 +1186,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "InfluxDB.Client >= 4.11.0-dev.10059",
+      "InfluxDB.Client >= 4.11.0",
       "System.Device.Gpio >= 2.2.0",
       "System.IO.Ports >= 7.0.0"
     ]
@@ -1197,11 +1197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj",
+      "projectUniqueName": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj",
       "projectName": "LoraRaspberry",
-      "projectPath": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj",
+      "projectPath": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj",
       "packagesPath": "C:\\Users\\I5-8400\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\obj\\",
+      "outputPath": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\I5-8400\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1232,7 +1232,7 @@
         "dependencies": {
           "InfluxDB.Client": {
             "target": "Package",
-            "version": "[4.11.0-dev.10059, )"
+            "version": "[4.11.0, )"
           },
           "System.Device.Gpio": {
             "target": "Package",

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Inbt7qvKbC34Q/u0hDh0IWFrw8ABwGXoOfKOJen5GDp6AUfXyUCff6UDPV9HZZxXUYfaXvzgHEBsJD28eaT0Lg==",
+  "dgSpecHash": "yLHW9Jg+DU0AwskyUEV8yo+5gUKaPkzuQMJpJGOt8GY5ZRoPfm6TYFXtRE8ymvLxFI+ORCc1mB5zAAmJnqSDEA==",
   "success": true,
-  "projectFilePath": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj",
+  "projectFilePath": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I5-8400\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
-    "C:\\Users\\I5-8400\\.nuget\\packages\\influxdb.client\\4.11.0-dev.10059\\influxdb.client.4.11.0-dev.10059.nupkg.sha512",
-    "C:\\Users\\I5-8400\\.nuget\\packages\\influxdb.client.core\\4.11.0-dev.10059\\influxdb.client.core.4.11.0-dev.10059.nupkg.sha512",
+    "C:\\Users\\I5-8400\\.nuget\\packages\\influxdb.client\\4.11.0\\influxdb.client.4.11.0.nupkg.sha512",
+    "C:\\Users\\I5-8400\\.nuget\\packages\\influxdb.client.core\\4.11.0\\influxdb.client.core.4.11.0.nupkg.sha512",
     "C:\\Users\\I5-8400\\.nuget\\packages\\jsonsubtypes\\2.0.1\\jsonsubtypes.2.0.1.nupkg.sha512",
     "C:\\Users\\I5-8400\\.nuget\\packages\\microsoft.extensions.objectpool\\7.0.2\\microsoft.extensions.objectpool.7.0.2.nupkg.sha512",
     "C:\\Users\\I5-8400\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj": {}
+    "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj": {}
   },
   "projects": {
-    "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj": {
+    "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj",
+        "projectUniqueName": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj",
         "projectName": "LoraRaspberry",
-        "projectPath": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\LoraRaspberry.csproj",
+        "projectPath": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\LoraRaspberry.csproj",
         "packagesPath": "C:\\Users\\I5-8400\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\_Masterarbeit\\Masterarbeit\\Raspberry\\Tests\\LoraRaspberry\\LoraRaspberry\\obj\\",
+        "outputPath": "D:\\Github\\Raspberry_Koordinationseinheit\\LoraRaspberry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\I5-8400\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "InfluxDB.Client": {
               "target": "Package",
-              "version": "[4.11.0-dev.10059, )"
+              "version": "[4.11.0, )"
             },
             "System.Device.Gpio": {
               "target": "Package",
