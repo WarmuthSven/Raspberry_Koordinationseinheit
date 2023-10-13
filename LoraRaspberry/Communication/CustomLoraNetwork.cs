@@ -296,6 +296,7 @@ public class CustomLoraNetwork : SingletonWrapper
 		} else if (receivedRegistrationAnswer )//|| watch.Elapsed.TotalSeconds > messageReturnTimeoutInterval)
 		{
 			sentRegistrationRequest = false;
+			messageReturnTimeoutInterval = Math.Max(messageReturnTimeoutInterval, watch.Elapsed.TotalSeconds + 5);
 			watch.Reset();
 				
 			if (receivedRegistrationAnswer)
@@ -373,7 +374,7 @@ public class CustomLoraNetwork : SingletonWrapper
 			{
 				Console.WriteLine($"Message caught: {e.Message}");
 			}
-		} else if (receivedData )//|| watch.Elapsed.TotalSeconds > messageReturnTimeoutInterval)
+		} else if (receivedData || watch.Elapsed.TotalSeconds > messageReturnTimeoutInterval)
 		{
 			sentDataRequest = false;
 			watch.Reset();
