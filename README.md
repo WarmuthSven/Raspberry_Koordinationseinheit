@@ -25,7 +25,7 @@ repositories in the operational phase":
 >Zu den Werkzeugen gehören die einzelnen Schritte zum Umwandeln von Paketen in nutzbare Informationen, sowie das Ansprechen der Datenbank.
 >Zuletzt sei hier noch der SingletonWrapper erwähnt, welcher den zuverlässigen Start des Programms sicherstellt und als einfache Oberklasse von Singletons dient.
 >Singletons sind allgemein Klassen, deren Instanzen, wie statische Klassen, überall aus dem Code aufgerufen werden können.
->Sie müssen daher sicher initialisiert werden, bevor sie verwendet werden können.
+>Sie müssen daher sicher initialisiert werden, bevor sie verwendet werden können.
 >Diese Oberklasse ermöglicht eine klare Reihenfolge von Initialisierung durch die Awake-Methode und Starten mit der Start-Methode von untergeordneten Klassen.
 >Auf diese Weise kann man sich sicher sein, dass alle notwendigen Strukturen in der Initialisierung erzeugt wurden, bevor beim Programmstart Klassen gegenseitig aufeinander zugreifen.
 >Dieses Verhalten ist angelehnt an die MonoBehaviour-Klasse der Spiele-Engine Unity.
